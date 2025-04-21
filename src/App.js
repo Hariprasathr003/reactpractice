@@ -2,6 +2,7 @@
 import "./App.css";
 import { Firsttask } from "./task/firsttask";
 import { Task2, Users } from "./task/task2";
+import { Task3,Taskusecontext } from "./task/task3";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Firsttask />
       <Task2 />
       <Users />
+      <Task3 />
+      <Taskusecontext />
     </div>
   );
 }
